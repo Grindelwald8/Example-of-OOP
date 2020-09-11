@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include <vector>
 #include <algorithm>
-//#include 
+
 
 using namespace std;
 
@@ -54,14 +54,12 @@ public:
 	}
 
 private:
-	          //доступны только классу которому они принадлежат
 	int flats;
 	float price;
 	float summ_sqeure;
 	int mobile_number;
 
 protected:
-           // доступны только классу и дочерним классам
 	friend int GetPrice(Building bb );
 };
 
